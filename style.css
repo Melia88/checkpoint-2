@@ -19,7 +19,9 @@ main {
 }
 
 .non-auto-btns{
-  text-align: center;
+  text-align:center;
+
+  
 }
 
 .auto-btns{
@@ -29,7 +31,7 @@ main {
 .puppy-img{
   text-align: center;
   min-height: 100vh;
-  padding-top: 25%;
+  padding-top: 25% ;
 }
 
 .counter{

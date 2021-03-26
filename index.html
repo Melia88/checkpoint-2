@@ -26,27 +26,29 @@
 <!-- Main -->
  <!-- Row1 up1 btns -->
   <main class="container-fluid">
-    <div class="row justify-content-around align-items-center">
-      <div class="col-md-12 non-auto-btns">
-        <button type="button" class="btn btn-primary btn-lg">Ball</button>Count:0 +1
-        <button type="button" class="btn btn-primary btn-lg">Treat</button>Count:0 +5 
-        <button type="button" class="btn btn-primary btn-lg">Walk</button>Count:0 +10 
+    <div class="row ">
+      <div class="col-md-12 d-flex justify-content-center align-items-center non-auto-btns" id="upgradeBtns">
+        <button type="button" class="btn btn-primary btn-lg ml-5 mr-5" onclick="clicks('ball')">Ball</button><span id="ballCounter">  </span>
+
+        <button type="button" class="btn btn-primary btn-lg ml-5 mr-5" onclick="clicks('treat')">Treat</button><span id="treatCounter"></span>
+
+        <button type="button" class="btn btn-primary btn-lg ml-5 mr-5" onclick="clicks('walk')">Walk</button><span id="walkCounter"></span>
       </div>
     </div>
    <!-- -Auto Btns-  -->
     <div class="row">
-      <div class="col-md-12 auto-btns"> 
-        <button type="button" class="btn btn-primary btn-lg">Food</button>Count:0 +50
-        <button type="button" class="btn btn-primary btn-lg">Water</button>Count:0 +50
+      <div class="col-md-12 d-flex justify-content-center align-items-center" id= "autoUpgradeBtns"> 
+        <button type="button" class="btn btn-primary btn-lg ml-5 mr-5" onclick="autos('food')">Food</button><span id="foodCounter"></span></button>
+        <button type="button" class="btn btn-primary btn-lg ml-5 mr-5" onclick="autos('water')">Water</button><span id="waterCounter"></span></button>
       </div>
     </div>
    <!-- Puppy Pic -->
       <div class="row">
-        <div class="col puppy-img"> <img src="//placehold.it/150X150" alt=""> </div>
+        <div class="col puppy-img clickPup"> <img src="//placehold.it/150X150" alt="" onclick="clickPuppy()"> </div>
       </div>
    <!-- Resource Puppy Love Count -->
       <div class="row counter">
-        <div class="col"> Counter </div>
+        <div class="col"> Puppy Love Count: <span id="pLoveCounter">  </span> </div>
       </div>
       
     </main>
