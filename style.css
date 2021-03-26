@@ -1,0 +1,39 @@
+/* red box */
+*{
+  outline: solid red;
+}
+
+/* Makes header & footer stay in place */
+body{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1;
+}
+
+.header-txt{
+  font-size: 3rem;
+}
+
+.non-auto-btns{
+  text-align: center;
+}
+
+.auto-btns{
+  text-align: center;
+}
+
+.puppy-img{
+  text-align: center;
+  min-height: 100vh;
+  padding-top: 25%;
+}
+
+.counter{
+  text-align: center;
+  font-size: large;
+  text-shadow: black;
+}
