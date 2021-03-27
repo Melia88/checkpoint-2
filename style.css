@@ -69,10 +69,7 @@ main {
 .pLoveTxt{
   font-size: 2rem;
   font-weight: 900;
-  /* background-color: rgba(140, 255, 111, 0.356); */
-  border-radius: 25px;
+  background-color: rgba(140, 255, 111, 0.356); 
+  border-radius: 25px 25px 25px 25px;
+  text-shadow:.5px .5px blanchedalmond;
 }
-
-
-
-
