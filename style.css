@@ -1,37 +1,63 @@
 /* red box */
-*{
-  outline: solid red;
-}
+/* *{ */
+  /* outline: solid red; */
+/* } */
 
 /* Makes header & footer stay in place */
 body{
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background-image: url(/photos/grass.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 main {
   flex-grow: 1;
+
 }
 
 .header-txt{
   font-size: 3rem;
+  color:black;
+  text-shadow: 2px 2px whitesmoke;
 }
 
-.non-auto-btns{
-  text-align:center;
 
-  
+.regBtns{
+  font-weight: bolder ;
+  color: black;
+  text-shadow: .5px .5px rgba(0, 217, 255, 0.959);
+  background-color: rgba(245, 245, 220, 0.356);
+  border-radius: 15px 50px;
 }
 
-.auto-btns{
+.btn{
+  background-color: cyan;
+  opacity: 90%;
+}
+
+.aBtns{
+  font-weight: bolder ;
+  color: black;
+  text-shadow: .5px .5px rgba(0, 217, 255, 0.959);
+  background-color: rgba(245, 245, 220, 0.356);
+  border-radius: 15px 50px;
+}
+
+.autoBtns{
+  justify-content:space-evenly
+}
+
+.puppy-img-col{
   text-align: center;
+  /* min-height: 100vh; */
+  /* padding-top: 15% ; */
 }
-
 .puppy-img{
-  text-align: center;
-  min-height: 100vh;
-  padding-top: 25% ;
+  inline-size: 40vh;
+  cursor: pointer;
 }
 
 .counter{
@@ -39,3 +65,14 @@ main {
   font-size: large;
   text-shadow: black;
 }
+
+.pLoveTxt{
+  font-size: 2rem;
+  font-weight: 900;
+  /* background-color: rgba(140, 255, 111, 0.356); */
+  border-radius: 25px;
+}
+
+
+
+

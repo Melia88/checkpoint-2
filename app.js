@@ -26,12 +26,12 @@ let autoUpgrades = {
   food: {
     price: 200,
     quantity: 0,
-    multiplier: 25,
+    multiplier: 10,
   },
   water: {
     price: 250,
     quantity: 0,
-    multiplier: 40,
+    multiplier: 20,
   }
 };
 
@@ -47,17 +47,17 @@ function clickPuppy() {
 function draw() {
   document.getElementById("pLoveCounter").innerText = puppyLove
 
-  document.getElementById("ballCounter").innerText = 'price: ' + clickUpgrades.ball.price + ' Quantity: ' + clickUpgrades.ball.quantity
+  document.getElementById("ballCounter").innerText = ' Price: ' + clickUpgrades.ball.price + '  Quantity: ' + clickUpgrades.ball.quantity
 
 
-  document.getElementById("treatCounter").innerText = ' price: ' + clickUpgrades.treat.price + ' Quantity: ' + clickUpgrades.treat.quantity 
+  document.getElementById("treatCounter").innerText = ' Price: ' + clickUpgrades.treat.price + '  Quantity: ' + clickUpgrades.treat.quantity 
 
 
-  document.getElementById("walkCounter").innerText = ' price: ' + clickUpgrades.walk.price + ' Quantity ' + clickUpgrades.walk.quantity 
+  document.getElementById("walkCounter").innerText = ' Price: ' + clickUpgrades.walk.price + '  Quantity ' + clickUpgrades.walk.quantity 
 
-  document.getElementById("waterCounter").innerText = ' price: ' + autoUpgrades.water.price + ' Quantity ' + autoUpgrades.water.quantity 
+  document.getElementById("waterCounter").innerText = ' Price: ' + autoUpgrades.water.price + '  Quantity ' + autoUpgrades.water.quantity 
 
-  document.getElementById("foodCounter").innerText = ' price: ' + autoUpgrades.food.price + ' Quantity: ' + autoUpgrades.food.quantity
+  document.getElementById("foodCounter").innerText = ' Price: ' + autoUpgrades.food.price + '  Quantity: ' + autoUpgrades.food.quantity 
 }
 
 // This keeps track of auto items
