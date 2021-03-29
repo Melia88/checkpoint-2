@@ -62,7 +62,7 @@ function draw() {
 
 // This keeps track of auto items
 
-function autos(item){ debugger
+function autos(item){ 
   let autoItem = autoUpgrades[item] 
   if(puppyLove >= autoItem.price){
     autoItem.quantity += 1
