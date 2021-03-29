@@ -1,5 +1,5 @@
 // This is the name of the starting count
-let puppyLove = 1000;
+let puppyLove = 0;
 let mod = 0;
 let autoMod= 0;
 
