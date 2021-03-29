@@ -8,7 +8,7 @@ body{
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background-image: url(/photos/grass.jpg);
+  background-image: url(photos/grass.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
