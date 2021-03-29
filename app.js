@@ -42,7 +42,7 @@ function clickPuppy() {
   // calculate the total mod from all click items 
  
   puppyLove++
-
+// this accesses & iterates over the objects
   for(let key in clickUpgrades){
     let upgrade = clickUpgrades[key]
     puppyLove += upgrade.quantity * upgrade.multiplier
