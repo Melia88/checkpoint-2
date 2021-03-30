@@ -83,7 +83,6 @@ function autos(item){
   }
   
   function clicks(type){
-    debugger
     let clickItem = clickUpgrades[type]
   if(puppyLove >= clickItem.price){
     clickItem.quantity += 1
